@@ -65,5 +65,20 @@ namespace Tyuiu.KiselevEA.Sprint6.Task0.V4
         {
             MessageBox.Show("Таск 0 выполнил студент группы СМАРТб-24-1 Киселев Егор Алексеевич", "Да!");
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxX_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

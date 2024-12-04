@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="textBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAVMAAAAoCAYAAABD2RnCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAACmpJREFUeF7tnfnrDd8fx9//gF/8oPzkJ8kPkiQiIUJRlghZE8m+RCEiIvtOkkTW
+        vAAADrwBlbxySQAACmpJREFUeF7tnfnrDd8fx9//gF/8oPzkJ8kPkiQiIUJRlghZE8m+RCEiIvtOkkTW
         7ISs2ZMtWbJmX7OFrFnOt8cx5/2dz7xn7syZOfe63ffrUaf7NvfOuTPnvM7zvM7rvOYq+/79u5IiRYoU
         KdmKiKkUKVKkOCgiplKkSJHioJQpQRAEITMipoIgCA4QMRUEQXCAiKkgCIIDREwFQRAcIGJa4jx//lxN
         mDBB1ahRQ5epU6eqz58/e+8KUfz+/VsdOXJEtWzZUpWVlalOnTqpK1eueO8KQkVETEuYr1+/qtGjR6vT
@@ -168,4 +171,10 @@
         IAjFTMHEVBAEoZQRMRUEQXCAiKkgCIIDREwFQRAcIGIqCIKQGaX+B9upHI1a9zDhAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="textBox2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="textBoxResult.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

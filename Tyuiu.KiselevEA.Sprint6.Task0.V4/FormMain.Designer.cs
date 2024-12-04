@@ -33,6 +33,7 @@
             textBox1 = new TextBox();
             pictureBox1 = new PictureBox();
             groupBox2 = new GroupBox();
+            textBox2 = new TextBox();
             textBoxX = new TextBox();
             groupBox3 = new GroupBox();
             textBoxResult = new TextBox();
@@ -57,9 +58,11 @@
             // 
             // textBox1
             // 
+            textBox1.BackColor = SystemColors.Menu;
+            textBox1.BorderStyle = BorderStyle.None;
             textBox1.Location = new Point(6, 22);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(179, 23);
+            textBox1.Size = new Size(179, 16);
             textBox1.TabIndex = 0;
             textBox1.Text = "Вычислить выражение";
             textBox1.TextChanged += textBox1_TextChanged;
@@ -76,6 +79,7 @@
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(textBox2);
             groupBox2.Controls.Add(textBoxX);
             groupBox2.Location = new Point(12, 225);
             groupBox2.Name = "groupBox2";
@@ -85,12 +89,25 @@
             groupBox2.Text = "Ввод данных";
             groupBox2.Enter += groupBox2_Enter;
             // 
+            // textBox2
+            // 
+            textBox2.BackColor = SystemColors.MenuBar;
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.ForeColor = SystemColors.InfoText;
+            textBox2.Location = new Point(6, 22);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(100, 16);
+            textBox2.TabIndex = 1;
+            textBox2.Text = "Переменная X:";
+            textBox2.TextChanged += textBox2_TextChanged;
+            // 
             // textBoxX
             // 
-            textBoxX.Location = new Point(6, 64);
+            textBoxX.Location = new Point(6, 44);
             textBoxX.Name = "textBoxX";
             textBoxX.Size = new Size(100, 23);
             textBoxX.TabIndex = 0;
+            textBoxX.TextChanged += textBoxX_TextChanged;
             // 
             // groupBox3
             // 
@@ -105,7 +122,8 @@
             // 
             // textBoxResult
             // 
-            textBoxResult.Location = new Point(6, 50);
+            textBoxResult.BackColor = SystemColors.Info;
+            textBoxResult.Location = new Point(6, 29);
             textBoxResult.Name = "textBoxResult";
             textBoxResult.Size = new Size(100, 23);
             textBoxResult.TabIndex = 0;
@@ -135,6 +153,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.MenuBar;
             ClientSize = new Size(800, 450);
             Controls.Add(buttoninfo);
             Controls.Add(button1);
@@ -142,8 +161,10 @@
             Controls.Add(groupBox2);
             Controls.Add(pictureBox1);
             Controls.Add(groupBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FormMain";
-            Text = "Form1";
+            Text = "Таск 0 Спринт 6";
+            Load += FormMain_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -165,5 +186,6 @@
         private TextBox textBoxX;
         private TextBox textBoxResult;
         private Button buttoninfo;
+        private TextBox textBox2;
     }
 }
