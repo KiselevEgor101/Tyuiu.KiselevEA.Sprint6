@@ -89,5 +89,10 @@ namespace Tyuiu.KiselevEA.Sprint6.Task1.V5
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
