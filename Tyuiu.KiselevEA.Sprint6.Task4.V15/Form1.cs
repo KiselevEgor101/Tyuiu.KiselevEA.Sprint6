@@ -44,8 +44,8 @@ namespace Tyuiu.KiselevEA.Sprint6.Task4.V15
                 int stopStep = Convert.ToInt32(textBoxStopStepData_KEA.Text);
 
                 double[] valueArray = ds.GetMassFunction(startStep, stopStep);
-                chart_KEA.ChartAreas[0].AxisX.Title = "Îñü X";
-                chart_KEA.ChartAreas[0].AxisY.Title = "Îñü Y";
+                chart_KEA.ChartAreas[0].AxisX.Title = "ось X";
+                chart_KEA.ChartAreas[0].AxisY.Title = "ось Y";
                 textBox1.Text = "";
                 for (int i = 0; i < valueArray.Length; i++)
                 {
@@ -56,7 +56,7 @@ namespace Tyuiu.KiselevEA.Sprint6.Task4.V15
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ошибка  " + ex.Message, "Неверные данные", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Ошибка" + ex.Message, "Неверные данные", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
