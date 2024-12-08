@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             groupBoxConditional_KEA = new GroupBox();
             pictureBox1 = new PictureBox();
             groupBoxData_KEA = new GroupBox();
@@ -176,18 +176,18 @@
             // 
             // chart_KEA
             // 
-            chartArea2.Name = "ChartArea1";
-            chart_KEA.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            chart_KEA.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            chart_KEA.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            chart_KEA.Legends.Add(legend1);
             chart_KEA.Location = new Point(207, 4);
             chart_KEA.Name = "chart_KEA";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.IsVisibleInLegend = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            chart_KEA.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            chart_KEA.Series.Add(series1);
             chart_KEA.Size = new Size(1035, 340);
             chart_KEA.TabIndex = 2;
             chart_KEA.Text = "chart1";
@@ -214,6 +214,7 @@
             Controls.Add(groupBoxConditional_KEA);
             Name = "Form1";
             Text = "Спринт 6 | Таск 4 | Вариант 15 | Киселев Е. А.";
+            Load += Form1_Load;
             groupBoxConditional_KEA.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBoxData_KEA.ResumeLayout(false);

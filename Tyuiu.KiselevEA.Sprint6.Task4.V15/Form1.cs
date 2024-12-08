@@ -85,7 +85,9 @@ namespace Tyuiu.KiselevEA.Sprint6.Task4.V15
 
         }
 
-        
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
