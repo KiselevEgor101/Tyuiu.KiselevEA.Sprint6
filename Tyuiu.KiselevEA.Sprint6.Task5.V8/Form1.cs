@@ -17,8 +17,8 @@ namespace Tyuiu.KiselevEA.Sprint6.Task5.V8
             dataGridView1.Columns[0].Width = 20;
             dataGridView1.Columns[1].Width = 50;
 
-            double [] numMass = new double [ds.len];
-            numMass = ds.LoadFromDataFile (path);
+            double[] numMass = new double[ds.len];
+            numMass = ds.LoadFromDataFile(path);
         }
 
         private void OpenFile_Click(object sender, EventArgs e)

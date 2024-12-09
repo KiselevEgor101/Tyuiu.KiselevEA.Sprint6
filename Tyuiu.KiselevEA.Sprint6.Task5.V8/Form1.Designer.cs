@@ -78,6 +78,7 @@
             OpenFile.Text = "Открыть Файл";
             OpenFile.UseVisualStyleBackColor = false;
             OpenFile.Click += OpenFile_Click;
+            
             // 
             // Info
             // 
