@@ -50,5 +50,10 @@ namespace Tyuiu.KiselevEA.Sprint6.Task6.V25
         {
 
         }
+
+        private void textBoxCond_KEA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

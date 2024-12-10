@@ -65,6 +65,7 @@
             textBox1.Location = new Point(210, 17);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(465, 193);
             textBox1.TabIndex = 2;
             textBox1.Text = "Разработчик: Киселев Е. А.\r\nгруппа СМАРТб-24-1\r\n\r\nПрограмма разработана в рамках изучения языка C#\r\n\r\nТюменский индустриальный университет (с) 2024\r\nВысшая школа цифровых технологий (с) 2024";
